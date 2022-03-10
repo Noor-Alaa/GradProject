@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 55px 10fr;
+  grid-template-columns: 2.37fr 7fr;
+  grid-template-areas:
+    "sideNav header"
+    "sideNav myContent";
+  color: #656060;
+}
+
+.SideNav {
+  grid-area: sideNav;
+  background-image: url("../../../public/sideNav.svg");
+}
+
+.Header {
+  grid-area: header;
+}
+
+.Content {
+  grid-area: myContent;
+}

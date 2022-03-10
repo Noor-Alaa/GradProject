@@ -1,0 +1,109 @@
+.refetch {
+  width: 40%;
+  border-radius: 10px;
+  margin: 34px auto 0;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  justify-content: center;
+  padding: 0;
+  color: #fdfdfd;
+}
+
+.refetch li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.refetch li p {
+  color: blue;
+}
+
+.wrapper {
+  background-color: #fdfdfd;
+  width: 80%;
+  margin: 0px auto;
+  padding: 0;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.wrapper > p {
+  background-color: #8e24aa;
+  color: #fdfdfd;
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: 11%;
+  text-align: center;
+  position: absolute;
+  margin: -15px 0 0 30px;
+}
+
+.container {
+  padding-top: 40px;
+}
+.container ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+
+  margin: 0 0 15px 35px;
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.container ul:first-of-type {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.container li {
+  display: flex;
+  width: 115px;
+  margin-top: 0;
+  gap: 5px;
+}
+
+.container li:nth-of-type(2) {
+  width: 190px;
+}
+
+.container input {
+  width: 70px;
+  background-color: greenyellow;
+}
+
+.detailsNav {
+  /* background-color: #fdfdfd; */
+  width: 80%;
+  margin: 40px auto 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.detailsNav a {
+  text-decoration: none;
+  color: #656060;
+}
+
+.detailsNav a:hover,
+.detailsNav .active {
+  background-color: #8e24aa;
+  color: #fdfdfd;
+  padding: 6px 12px;
+
+  border-radius: 6px;
+}
+/* 
+.detailsNav .active {
+  color: blue;
+  font-size: 90px;
+} */

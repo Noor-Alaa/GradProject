@@ -1,0 +1,18 @@
+.Header {
+  background-color: #fdfdfd;
+  /* f8f8f8 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.Header p {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.Header div {
+  display: flex;
+  gap: 54px;
+}

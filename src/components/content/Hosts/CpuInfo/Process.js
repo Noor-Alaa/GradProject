@@ -1,0 +1,82 @@
+import classes from "./Process.module.css";
+
+const Processes = () => {
+  return (
+    <div className={classes.Processes}>
+      <div>
+        <ul>
+          <li>PID</li>
+          <li>Name</li>
+          <li>PPID</li>
+          <li>User</li>
+          <li>Path</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>20824</li>
+          <li>powershell.exe</li>
+          <li>14020</li>
+          <li>Ahmed</li>
+          <li>C:\\Windows....</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Processes;
