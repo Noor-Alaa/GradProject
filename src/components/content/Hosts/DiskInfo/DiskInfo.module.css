@@ -8,8 +8,6 @@
 .DiskInfo div:first-of-type {
   display: flex;
   align-items: center;
-
-  /* padding: 20px; */
   background-color: #656060;
   color: #ffffff;
   height: 40px;
@@ -23,16 +21,11 @@
 .DiskInfo div {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-  /* padding-left: 10px; */
   font-size: 16px;
-  /* padding-left: 40px; */
   justify-content: center;
 }
 
 .DiskInfo div:first-of-type ul {
-  /* width: calc(100%-120px); */
-  /* margin-left: 60px; */
   padding: 0;
   border: none;
   padding-bottom: 20px;
@@ -43,17 +36,13 @@
 
 .DiskInfo ul {
   list-style: none;
-  /* padding-left: 20px; */
   padding: 0;
   display: flex;
   gap: 15px;
-  /* width: calc(100%-120px); */
   vertical-align: middle;
   padding-bottom: 6px;
   border-bottom: 1px solid #707070;
-  /* margin-left: 60px; */
   text-align: center;
-  /* margin-left: 40px; */
   margin-bottom: 0;
 }
 .DiskInfo div:last-of-type ul {
@@ -63,8 +52,3 @@
 .DiskInfo li {
   width: 180px;
 }
-
-/* .DiskInfo input {
-  vertical-align: middle;
-  margin: 0 23.5px;
-} */

@@ -78,7 +78,6 @@
 }
 
 .detailsNav {
-  /* background-color: #fdfdfd; */
   width: 80%;
   margin: 40px auto 15px;
   list-style: none;
@@ -102,8 +101,3 @@
 
   border-radius: 6px;
 }
-/* 
-.detailsNav .active {
-  color: blue;
-  font-size: 90px;
-} */

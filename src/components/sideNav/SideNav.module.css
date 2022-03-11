@@ -43,8 +43,6 @@
   justify-content: center;
   padding: 0;
   margin-top: -40px;
-
-  /* margin-left: -20px; */
 }
 .host img {
   margin-right: -15px;
@@ -55,10 +53,6 @@
   padding: 0;
   margin: 0;
 }
-/* .list li img {
-  filter: invert(12%) sepia(63%) saturate(6234%) hue-rotate(246deg)
-    brightness(87%) contrast(156%);
-} */
 
 .list li:hover {
   background-color: #8e24aa;
@@ -67,8 +61,6 @@
 
 .list li:hover img,
 .list .active li img {
-  /* filter: invert(0%) sepia(95%) saturate(4%) hue-rotate(232deg) brightness(101%)
-    contrast(100%); */
   filter: brightness(0) invert(1);
 }
 
