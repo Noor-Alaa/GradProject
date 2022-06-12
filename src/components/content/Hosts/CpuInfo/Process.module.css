@@ -51,4 +51,5 @@
 
 .Processes li {
   width: 140px;
+  word-break: break-all;
 }
